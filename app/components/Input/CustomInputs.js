@@ -19,6 +19,8 @@ const CustomInputs = ({
 }) => {
   const { colors } = useTheme();
 
+  // console.log({  });
+
   return (
     <View
       style={{
@@ -80,7 +82,7 @@ const CustomInputs = ({
               //   lineHeight: sizes(),
               paddingLeft: sizes(12),
               fontFamily: FONTS?.fontsMedium,
-              color: colors?.greenDark,
+              color: colors?.black,
             }}
             // onEndEditing={(text) => setNoRek(text)}
             onChangeText={onChangeText}
